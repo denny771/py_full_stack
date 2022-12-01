@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<!-- template inheritence from base.html -->
+{% extends "basic_app/base.html" %}
+    {% block body_block %}
+    <h1>You are on index</h1>
+    <!-- | next we have to use filter name -->
+    <!-- check spaces after filter is error raises -->
+     <h1>{{ text| cut:"Hello" }}</h1> <!--cut is the customized filter from templatetags , my_extras-->
+     <h1>{{ number | add:"99" }}</h1> <!--number should be passed as string-->
+     {% endblock %}

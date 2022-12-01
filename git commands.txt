@@ -1,0 +1,12 @@
+> git init (to push code from local file to git for first time creating respo)
+
+>git add . (adding "." all files)
+
+>git commit -m "#comment"(notice changes in code)
+
+>git remote add origin https://github.com/denny771/flask_empdetails.git(pushing code for first time
+> git push origin "repo name"(Pushing the flies)
+
+>git status (To know the changes in local file but not in remote repo)
+
+>git diff(to know the changes)
