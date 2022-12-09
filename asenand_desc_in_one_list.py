@@ -18,7 +18,7 @@ def sot(lst):
     desc = desc[::-1]
     print(desc)
     i = 0
-    while i < (len(lst) - 1):
+    while i < (len(lst) -1):
         if i % 2 == 0 and i != 0:
             for j in range(len(desc)):
                 lst[i] = desc[j]
@@ -36,3 +36,21 @@ def sot(lst):
 a = [11,3,2,18,0,22,10,13]
 (sot(a))
 print(a)
+
+'''method 2'''
+# lst = [11,3,2,18,0,22,10,13]
+# com = [11,3,10,13,2,18,0,22]
+# desc = []
+# ascn = []
+# res = []
+# for i in range(len(lst)):
+#         if i % 2 == 0 or i == 0:
+#             desc.append(lst[i])
+#         else:
+#             ascn.append(lst[i])
+# desc = sorted(desc,reverse=True)
+# ascn = sorted(ascn)
+# for (i,j) in zip(desc,ascn):
+#     res.append(i)
+#     res.append(j)
+# print(res)
