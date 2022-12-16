@@ -4,7 +4,7 @@
 
 >git commit -m "#comment"(notice changes in code)
 
->git remote add origin https://github.com/denny771/flask_empdetails.git(pushing code for first time
+>git remote add origin https://github.com/denny771/python_fullstack.git(pushing code for first time
 > git push origin "repo name"(Pushing the flies)
 
 >git status (To know the changes in local file but not in remote repo)
