@@ -5,6 +5,9 @@
 >git commit -m "#comment"(notice changes in code)
 
 >git remote add origin https://github.com/denny771/python_fullstack.git(pushing code for first time
+
+> git remote set-url --add --push origin url of repo(if u want to change the pushing repo)
+
 > git push origin "repo name"(Pushing the flies)
 
 >git status (To know the changes in local file but not in remote repo)
