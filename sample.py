@@ -1,17 +1,17 @@
-list_original = [8,1,2,7,3,6,4,5]
-
-list1 = [1,3,5,7] #odds of list_originaal
-list2 = [2,4,6,8] #evens of list_original
-
-i = 0 
-for j in list1:
-    print(j)
-    list_original[i] = j
-    i =+ 1
-# print(list_original)
-# k = 1
-# for j in list2:
-#     list_original[k] = j
-#     k =+ 2
-
-# print(list_original)
+import math
+k1 = (2, 5, 4)
+k2 = (7, 8, 9)
+k3= (5, 7, 8, 9, 10)
+def res(k):
+    k1_max = 0
+    k1_org = []
+    print(k)
+    for j in k:
+        for i in j:
+            m = i*i
+            if m > k1_max :
+                k1_max = m
+                k1_org.append(int(math.sqrt(k1_max)))
+    return k1_org
+ex = [k1,k2,k3]
+print(res(ex))

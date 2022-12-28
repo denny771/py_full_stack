@@ -2,6 +2,7 @@ def longestPalindrome(s: str) -> str:
         result = ""
         sub_lst = [s[i: j] for i in range(len(s))
           for j in range(i + 1, len(s) + 1)]
+        print(sub_lst)
         # result = ""
         for i in sub_lst:
             k = i[::-1]
